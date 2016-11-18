@@ -27,7 +27,7 @@ public class PetSurvey extends JFrame{
         pack();
         setSize(350, 200);
         setTitle("Pet Survey");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
         cbxCat.addItemListener(new ItemListener() {
